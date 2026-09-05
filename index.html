@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Living City — Time-Based Creative</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor Elements -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- UI Overlay (Webpage Feel) -->
+    <header class="ui-header">
+        <div class="title-block">
+            <h1 class="title">A Living City</h1>
+            <p class="subtitle">A time-based creative</p>
+        </div>
+        <div class="status" id="status">
+            <span class="status-dot" id="status-dot"></span>
+            <span id="status-text">Daytime</span>
+        </div>
+    </header>
+
+    <main class="scene" id="scene">
+        <!-- Sky Layer -->
+        <div class="sky" id="sky">
+            <div class="aurora" id="aurora"></div>
+            <div class="stars" id="stars"></div>
+            <div class="clouds" id="clouds">
+                <div class="cloud cloud-1"></div>
+                <div class="cloud cloud-2"></div>
+                <div class="cloud cloud-3"></div>
+            </div>
+            <div class="sun" id="sun"></div>
+            <div class="moon" id="moon"></div>
+        </div>
+
+        <!-- Birds (Golden Hour Special Moment) -->
+        <div class="birds" id="birds">
+            <div class="bird bird-1"></div>
+            <div class="bird bird-2"></div>
+            <div class="bird bird-3"></div>
+        </div>
+
+        <!-- City Layer with 3D Perspective -->
+        <!-- City Layer with 3D Perspective -->
+<!-- City Layer with 3D Perspective -->
+<div class="city">
+    <!-- Back Buildings -->
+    <div class="building-layer layer-back" id="back-buildings">
+        <div class="building b1 flat"><div class="entrance"></div><div class="water-tank"></div></div>
+        <div class="building b2 temple"><div class="entrance"></div><div class="finial"></div></div>
+        <div class="building b3 flat"><div class="entrance"></div><div class="water-tank"></div></div>
+        <div class="building b4 tower"><div class="entrance"></div></div>
+        <div class="building b5 flat"><div class="entrance"></div><div class="water-tank"></div></div>
+    </div>
+    <!-- Middle Buildings -->
+    <div class="building-layer layer-middle" id="middle-buildings">
+        <div class="building m1 church"><div class="entrance"></div><div class="cross"></div></div>
+        <div class="building m2 flat"><div class="entrance"></div><div class="water-tank"></div></div>
+        <div class="building m3 dome"><div class="entrance"></div><div class="finial"></div><div class="minaret left"></div><div class="minaret right"></div></div>
+        <div class="building m4 skyscraper"><div class="entrance"></div></div>
+    </div>
+    <!-- Front Buildings with Windows -->
+    <div class="building-layer layer-front" id="front-buildings">
+        <div class="building f1 flat"><div class="entrance"></div><div class="water-tank"></div></div>
+        <div class="building f2 temple"><div class="entrance"></div><div class="finial"></div></div>
+        <div class="building f3 tower"><div class="entrance"></div></div>
+        <div class="building f4 church"><div class="entrance"></div><div class="cross"></div></div>
+        <div class="building f5 flat"><div class="entrance"></div><div class="water-tank"></div></div>
+    </div>
+</div>
+
+        <!-- Ground -->
+        <div class="ground" id="ground"></div>
+
+        <!-- Current Time Display -->
+        <div class="time-display" id="time-display">
+            <span id="time-text">--:--</span>
+            <span class="ampm" id="ampm"></span>
+        </div>
+
+        <!-- Subtle Tagline -->
+        <div class="tagline">A living city, following your time.</div>
+    </main>
+
+    <!-- Grain Texture Overlay -->
+    <div class="grain"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
