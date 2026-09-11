@@ -8,13 +8,13 @@
 :root {
     /* CSS Variables — JavaScript inhe update karega */
     --sky-top: #1a1a2e;
-    --sky-middle: #2d3561;
+    --sky-middle: #3570ab;
     --sky-bottom: #6b4f6b;
     
     --sun-x: 10%;
     --sun-y: 80%;
     --sun-opacity: 0;
-    --sun-color: #ff6b35;
+    --sun-color: #a13813;
     --sun-glow: 0px;
     --sun-scale: 1;
     
@@ -112,8 +112,8 @@ body {
     border-radius: 50%;
     background: radial-gradient(
         circle at center,
-        var(--sun-color) 0%,
-        transparent 70%
+        var(--sun-color) 50%,
+        transparent 100%
     );
     opacity: var(--sun-opacity);
     transform: translate(-50%, -50%) scale(var(--sun-scale));
